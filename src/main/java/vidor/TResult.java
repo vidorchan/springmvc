@@ -1,5 +1,7 @@
 package main.java.vidor;
 
+import java.util.List;
+
 public class TResult<T> {
 
     private boolean success = false;
@@ -8,7 +10,7 @@ public class TResult<T> {
 
     private String errMsg = "OK";
 
-    private T value = null;
+    private List<T> value = null;
 
     public boolean isSuccess() {
         return success;
@@ -34,11 +36,11 @@ public class TResult<T> {
         this.errMsg = errMsg;
     }
 
-    public T getValue() {
+    public List<T> getValue() {
         return value;
     }
 
-    public void setValue(T value) {
+    public void setValue(List<T> value) {
         this.value = value;
     }
 }
