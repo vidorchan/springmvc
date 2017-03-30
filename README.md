@@ -4,3 +4,4 @@
 #3.no xml<br/>
 #4.Restful<br/>
 #5.handlebars<br/>
+#6.spring:message<br/>
